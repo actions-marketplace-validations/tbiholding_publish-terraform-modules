@@ -1,6 +1,6 @@
-name: "Publish Terraform Modules"
+name: "TBI Publish Terraform Modules"
 description: "Publish multiple terraform modules to terraform cloud module registry"
-author: "Pau Pous <paupous@gmail.com>"
+author: "Misja Pronk"
 branding:
   icon: "terminal"
   color: "red"
