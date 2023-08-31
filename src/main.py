@@ -127,16 +127,16 @@ def validate(module_folder: str) -> bool:
 
 if __name__ == "__main__":
 
-    modules_list = sys.argv[1]
-    provider = sys.argv[2]
-    namespace = sys.argv[3]
-    registry_name = sys.argv[4]
-    token = sys.argv[5]
-    recreate = sys.argv[6]
-    base_version = sys.argv[7]
-    autobump_version = sys.argv[8]
-    bump_major = sys.argv[9]
-    bump_minor = sys.argv[10]
+    modules_list = sys.argv[0]
+    provider = sys.argv[1]
+    namespace = sys.argv[2]
+    registry_name = sys.argv[3]
+    token = sys.argv[4]
+    recreate = sys.argv[5]
+    base_version = sys.argv[6]
+    autobump_version = sys.argv[7]
+    bump_major = sys.argv[8]
+    bump_minor = sys.argv[9]
 
     config = Config(
         modules_list=json.loads(modules_list),
